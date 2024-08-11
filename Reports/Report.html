@@ -1,0 +1,1945 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">8/12/2024 12:57:06 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>  <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAnInvalidContact("Jason Joseph","Eligio","8/11/2024","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","birthdate: Birthdate is invalid",null)</p>
+            <p class="text-sm">
+              <span>12:57:06 AM</span> / <span>6124.73 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAnInvalidContact("Jason Joseph","Eligio","8/11/2024","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","birthdate: Birthdate is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:06 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:12 AM</span>
+                  <span class='badge badge-default'>6124.73 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:12</td>
+        <td>
+Test steps finished for test case AddAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513#gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","email: Email is invalid",null)</p>
+            <p class="text-sm">
+              <span>12:57:12 AM</span> / <span>5775.79 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513#gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","email: Email is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:12 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:18 AM</span>
+                  <span class='badge badge-default'>5775.79 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:18</td>
+        <td>
+Test steps finished for test case AddAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","invalid","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","phone: Phone number is invalid",null)</p>
+            <p class="text-sm">
+              <span>12:57:18 AM</span> / <span>5807.48 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","invalid","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","phone: Phone number is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:18 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:24 AM</span>
+                  <span class='badge badge-default'>5807.48 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:24</td>
+        <td>
+Test steps finished for test case AddAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","invalid","Philippines","postalCode: Postal code is invalid",null)</p>
+            <p class="text-sm">
+              <span>12:57:24 AM</span> / <span>6095.48 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","invalid","Philippines","postalCode: Postal code is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:24 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:30 AM</span>
+                  <span class='badge badge-default'>6095.48 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:30</td>
+        <td>
+Test steps finished for test case AddAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:57:30 AM</span> / <span>7275.87 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:30 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:38 AM</span>
+                  <span class='badge badge-default'>7275.87 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:38</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:57:38 AM</span> / <span>7322.86 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:38 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:45 AM</span>
+                  <span class='badge badge-default'>7322.86 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:45</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:57:45 AM</span> / <span>7011.01 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:45 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:52 AM</span>
+                  <span class='badge badge-default'>7011.01 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:52</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:57:52 AM</span> / <span>7019.92 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:57:52 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:57:59 AM</span>
+                  <span class='badge badge-default'>7019.92 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:57:59</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:58:00 AM</span> / <span>6804.98 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:00 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:58:06 AM</span>
+                  <span class='badge badge-default'>6804.98 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:58:06</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:58:06 AM</span> / <span>7076.54 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:06 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:58:14 AM</span>
+                  <span class='badge badge-default'>7076.54 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:58:14</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:58:14 AM</span> / <span>8793.4 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:14 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:58:22 AM</span>
+                  <span class='badge badge-default'>8793.4 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:58:22</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:58:23 AM</span> / <span>7024.64 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:23 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:58:30 AM</span>
+                  <span class='badge badge-default'>7024.64 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:58:30</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:58:30 AM</span> / <span>8955.55 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:30 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:58:39 AM</span>
+                  <span class='badge badge-default'>8955.55 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:58:39</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AddAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:58:39 AM</span> / <span>7098.29 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AddAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:39 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:58:46 AM</span>
+                  <span class='badge badge-default'>7098.29 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:58:46</td>
+        <td>
+Test steps finished for test case AddAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">NonExistingElementForceTestFailure</p>
+            <p class="text-sm">
+              <span>12:58:46 AM</span> / <span>14545.49 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">NonExistingElementForceTestFailure</h5>
+                  <span class='badge badge-success'>8/12/2024 12:58:46 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:59:01 AM</span>
+                  <span class='badge badge-default'>14545.49 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>Aug 12, 2024 00:59:01</td>
+        <td>
+Test steps NOT Completed for Test case NonExistingElementForceTestFailure        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>Aug 12, 2024 00:59:01</td>
+        <td>
+Test ended with message OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"#ghostElement"}
+  (Session info: chrome=127.0.6533.100); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:59:01 AM</span> / <span>17460.82 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:59:01 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:59:18 AM</span>
+                  <span class='badge badge-default'>17460.82 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:59:18</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:59:18 AM</span> / <span>21187.95 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:59:18 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:59:39 AM</span>
+                  <span class='badge badge-default'>21187.95 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:59:39</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:59:40 AM</span> / <span>17516.76 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:59:40 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 12:59:57 AM</span>
+                  <span class='badge badge-default'>17516.76 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 00:59:57</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>12:59:57 AM</span> / <span>17263.01 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 12:59:57 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:00:15 AM</span>
+                  <span class='badge badge-default'>17263.01 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:00:15</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:00:15 AM</span> / <span>17322.86 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:00:15 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:00:32 AM</span>
+                  <span class='badge badge-default'>17322.86 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:00:32</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:00:32 AM</span> / <span>17223.43 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:00:32 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:00:49 AM</span>
+                  <span class='badge badge-default'>17223.43 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:00:49</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:00:50 AM</span> / <span>17129.16 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:00:50 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:01:07 AM</span>
+                  <span class='badge badge-default'>17129.16 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:01:07</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:01:07 AM</span> / <span>20010.69 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:01:07 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:01:27 AM</span>
+                  <span class='badge badge-default'>20010.69 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:01:27</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:01:27 AM</span> / <span>17215.36 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:01:27 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:01:44 AM</span>
+                  <span class='badge badge-default'>17215.36 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:01:44</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DeleteAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:01:44 AM</span> / <span>17142.75 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">DeleteAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:01:44 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:02:01 AM</span>
+                  <span class='badge badge-default'>17142.75 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:02:01</td>
+        <td>
+Test steps finished for test case DeleteAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAnInvalidContact("Jason Joseph","Eligio","8/11/2024","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","birthdate: Birthdate is invalid",null)</p>
+            <p class="text-sm">
+              <span>1:02:02 AM</span> / <span>9392.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAnInvalidContact("Jason Joseph","Eligio","8/11/2024","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","birthdate: Birthdate is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:02:02 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:02:11 AM</span>
+                  <span class='badge badge-default'>9392.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:02:11</td>
+        <td>
+Test steps finished for test case EditAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513#gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","email: Email is invalid",null)</p>
+            <p class="text-sm">
+              <span>1:02:11 AM</span> / <span>9372.82 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513#gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","email: Email is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:02:11 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:02:20 AM</span>
+                  <span class='badge badge-default'>9372.82 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:02:20</td>
+        <td>
+Test steps finished for test case EditAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","invalid","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","phone: Phone number is invalid",null)</p>
+            <p class="text-sm">
+              <span>1:02:21 AM</span> / <span>9411.67 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","invalid","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","phone: Phone number is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:02:21 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:02:30 AM</span>
+                  <span class='badge badge-default'>9411.67 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:02:30</td>
+        <td>
+Test steps finished for test case EditAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","invalid","Philippines","postalCode: Postal code is invalid",null)</p>
+            <p class="text-sm">
+              <span>1:02:30 AM</span> / <span>9414.88 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","invalid","Philippines","postalCode: Postal code is invalid",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:02:30 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:02:40 AM</span>
+                  <span class='badge badge-default'>9414.88 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:02:40</td>
+        <td>
+Test steps finished for test case EditAnInvalidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:02:40 AM</span> / <span>10325.62 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:02:40 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:02:50 AM</span>
+                  <span class='badge badge-default'>10325.62 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:02:50</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:02:50 AM</span> / <span>12339.09 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:02:50 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:03:02 AM</span>
+                  <span class='badge badge-default'>12339.09 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:03:02</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:03:03 AM</span> / <span>10493.63 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:03:03 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:03:13 AM</span>
+                  <span class='badge badge-default'>10493.63 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:03:13</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:03:13 AM</span> / <span>10469.16 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:03:13 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:03:24 AM</span>
+                  <span class='badge badge-default'>10469.16 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:03:24</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:03:24 AM</span> / <span>12409.41 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:03:24 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:03:36 AM</span>
+                  <span class='badge badge-default'>12409.41 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:03:36</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="35"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:03:36 AM</span> / <span>10322.59 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:03:36 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:03:47 AM</span>
+                  <span class='badge badge-default'>10322.59 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:03:47</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:03:47 AM</span> / <span>10332.26 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:03:47 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:03:57 AM</span>
+                  <span class='badge badge-default'>10332.26 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:03:57</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:03:57 AM</span> / <span>10240.42 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:03:57 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:04:08 AM</span>
+                  <span class='badge badge-default'>10240.42 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:04:08</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="38"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:04:08 AM</span> / <span>13654.32 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:04:08 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:04:21 AM</span>
+                  <span class='badge badge-default'>13654.32 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:04:21</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="39"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EditAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)</p>
+            <p class="text-sm">
+              <span>1:04:21 AM</span> / <span>10877.01 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">EditAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)</h5>
+                  <span class='badge badge-success'>8/12/2024 1:04:21 AM</span>
+                  <span class='badge badge-danger'>8/12/2024 1:04:32 AM</span>
+                  <span class='badge badge-default'>10877.01 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 12, 2024 01:04:32</td>
+        <td>
+Test steps finished for test case EditAValidContact        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>8/12/2024 12:57:06 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>8/12/2024 1:04:32 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>38</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>1</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'>
+            <b>38</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>1</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>38</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>2</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "AddAnInvalidContact("Jason Joseph","Eligio","8/11/2024","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","birthdate: Birthdate is invalid",null)":6124.7262,"AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513#gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","email: Email is invalid",null)":5775.7914,"AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","invalid","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","phone: Phone number is invalid",null)":5807.4768,"AddAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","invalid","Philippines","postalCode: Postal code is invalid",null)":6095.4752,"AddAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)":7275.8725,"AddAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)":7322.8578,"AddAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)":7011.0146,"AddAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)":7019.9186,"AddAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)":6804.9814,"AddAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)":7076.5361,"AddAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)":8793.4049,"AddAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)":7024.6356,"AddAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)":8955.5515,"AddAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)":7098.2872,"NonExistingElementForceTestFailure":14545.4879,"DeleteAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)":17460.8225,"DeleteAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)":21187.9472,"DeleteAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)":17516.7633,"DeleteAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)":17263.0141,"DeleteAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)":17322.8598,"DeleteAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)":17223.4278,"DeleteAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)":17129.1583,"DeleteAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)":20010.6943,"DeleteAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)":17215.3566,"DeleteAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)":17142.7469,"EditAnInvalidContact("Jason Joseph","Eligio","8/11/2024","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","birthdate: Birthdate is invalid",null)":9392.4443,"EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513#gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","email: Email is invalid",null)":9372.823,"EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","invalid","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines","phone: Phone number is invalid",null)":9411.6744,"EditAnInvalidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","invalid","Philippines","postalCode: Postal code is invalid",null)":9414.8821,"EditAValidContact("Jason Joseph","Eligio","1991-05-13","jhay0513@gmail.com","09163003091","Emerald St New Hope Subd","Bulihan","Malolos","Bulacan","3000","Philippines",null)":10325.617,"EditAValidContact("Crisa","De Juan","1993-10-08","crisadejuan@gmail.com","09166675789","Blk 18 Lot 6 Petunia St","Lancaster New City","Gen Trias","Cavite","4107","Philippines",null)":12339.0874,"EditAValidContact("Alvin","Guevarra","1992-02-09","alvsguevs@gmail.com","09663853712","1234 Camella St","San Antonio Valley 17","Las Pinas","NCR","1000","Philippines",null)":10493.629,"EditAValidContact("Benjie","Manalo","1994-01-02","benjiemanalo@gmail.com","09198009091","3rd Floor Insular Life Bldg","Paseo De Roxas","Makati","NCR","2000","Philippines",null)":10469.1571,"EditAValidContact("Catherine","Janelle","1995-05-06","cjelig@gmail.com","09887654121","Blk 6 Lot 8 Sapphire St","Stella Maris","Malolos","Bulacan","3001","Philippines",null)":12409.4079,"EditAValidContact("Darryl","Diaz","1996-07-08","thereal0708@gmail.com","09134575123","2180 G G Cruz St","Baclaran","Paranaque","NCR","4000","Philippines",null)":10322.5874,"EditAValidContact("Emma","Bolgrihn","1990-09-10","emma.bolgrihn@gmail.com","09122225123","234 Rosal St","Talon Kuatro","Las Pinas","NCR","9182","Philippines",null)":10332.2584,"EditAValidContact("Fernando","Jesus","1989-11-12","fpj1112@gmail.com","09166878723","878 Espana St","Sampaloc","Manila","NCR","4321","Philippines",null)":10240.4155,"EditAValidContact("Guzmin","Carrow","1988-12-11","frankiecarrow@gmail.com","09166663456","13th floor One San Miguel Tower","San Miguel Avenue, Ortigas","Pasig City","NCR","7654","Philippines",null)":13654.3211,"EditAValidContact("Huerto","Sarzaba","1987-10-09","huertosarzaba@gmail.com","09193853732","123 Kabilang-Ibayo St","Pala-Pala","San Jose","Pampanga","9876","Philippines",null)":10877.0081 };
+  </script>
+  <div class="row">
+      <div class="col-md-4 sysenv-container">
+      <div class="card">
+        <div class="card-header"><p>System/Environment</p></div>
+        <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+          <thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Environment</td>
+              <td>QA</td>
+            </tr>
+            <tr>
+              <td>Tester</td>
+              <td>Jason Eligio</td>
+            </tr>
+            <tr>
+              <td>MachineName</td>
+              <td>DESKTOP-3IQQ1B0</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 39,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 40,
+
+passParent:38,failParent:1,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:38,failEvents:2,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
